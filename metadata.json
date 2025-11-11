@@ -1,0 +1,5 @@
+{
+  "name": "AI Cooking Competition Scorer",
+  "description": "A static web application to manage and score an AI cooking competition. It allows users to define competing AIs, set challenges, record scores, and view a final leaderboard. All data is saved in the browser's local storage to persist across sessions.",
+  "requestFramePermissions": []
+}
