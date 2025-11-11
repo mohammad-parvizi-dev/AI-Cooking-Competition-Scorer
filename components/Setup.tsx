@@ -1,7 +1,7 @@
 import React from 'react';
-import { AI } from '../types';
-import { TrashIcon } from './icons';
-import { CHALLENGE_GROUPS, LEVELS } from '../constants';
+import { AI } from '../types.ts';
+import { TrashIcon } from './icons.tsx';
+import { CHALLENGE_GROUPS, LEVELS } from '../constants.ts';
 
 interface SetupProps {
   ais: AI[];

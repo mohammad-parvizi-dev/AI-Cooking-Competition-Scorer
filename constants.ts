@@ -1,4 +1,4 @@
-import { AI, Challenge } from './types';
+import { AI, Challenge } from './types.ts';
 
 export const AIS: AI[] = [
   { id: 'ai-perplexity', name: 'Perplexity', avatarUrl: `https://framerusercontent.com/images/gcMkPKyj2RX8EOEja8A1GWvCb7E.jpg?width=2000&height=2000` },

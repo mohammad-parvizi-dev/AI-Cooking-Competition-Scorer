@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { View } from '../types';
-import { SetupIcon, CompetitionIcon, ResultsIcon } from './icons';
+import { View } from '../types.ts';
+import { SetupIcon, CompetitionIcon, ResultsIcon } from './icons.tsx';
 
 interface HeaderProps {
   currentView: View;

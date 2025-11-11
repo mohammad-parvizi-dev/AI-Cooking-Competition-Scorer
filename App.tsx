@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { useLocalStorage } from './hooks/useLocalStorage';
-import { AI, Score, View } from './types';
-import Header from './components/Header';
-import Setup from './components/Setup';
-import Competition from './components/Competition';
-import Results from './components/Results';
-import { AIS, CHALLENGES } from './constants';
+import { useLocalStorage } from './hooks/useLocalStorage.ts';
+import { AI, Score, View } from './types.ts';
+import Header from './components/Header.tsx';
+import Setup from './components/Setup.tsx';
+import Competition from './components/Competition.tsx';
+import Results from './components/Results.tsx';
+import { AIS, CHALLENGES } from './constants.ts';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<View>(View.SETUP);

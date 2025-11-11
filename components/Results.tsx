@@ -1,7 +1,7 @@
 
 import React, { useMemo } from 'react';
-import { AI, Challenge, Score } from '../types';
-import { GoldMedalIcon, SilverMedalIcon, BronzeMedalIcon } from './icons';
+import { AI, Challenge, Score } from '../types.ts';
+import { GoldMedalIcon, SilverMedalIcon, BronzeMedalIcon } from './icons.tsx';
 
 interface ResultsProps {
   ais: AI[];

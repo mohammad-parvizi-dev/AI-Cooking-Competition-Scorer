@@ -1,10 +1,10 @@
 import React, { useState, useMemo } from 'react';
-import { AI, Challenge, Score } from '../types';
-import { CHALLENGE_GROUPS, LEVELS } from '../constants';
+import { AI, Challenge, Score } from '../types.ts';
+import { CHALLENGE_GROUPS, LEVELS } from '../constants.ts';
 import { 
   StarIcon, EasyLevelIcon, MediumLevelIcon, HardLevelIcon,
   SmartChefIcon, RaceTimeIcon, MinefieldKitchenIcon, MissingIngredientIcon, GuerrillaCookingIcon, GlobalChefIcon
-} from './icons';
+} from './icons.tsx';
 
 interface StarRatingProps {
   count: number;
